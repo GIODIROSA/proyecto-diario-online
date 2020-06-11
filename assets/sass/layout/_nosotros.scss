@@ -1,0 +1,11 @@
+#noticias-derecha{
+    display: none;
+}
+@media only screen and (min-width: 768px) and (max-width: 1920px){
+   #noticias-derecha{
+    display: block;
+   }
+
+   
+
+}
