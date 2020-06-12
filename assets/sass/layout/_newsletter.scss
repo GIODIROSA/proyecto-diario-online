@@ -5,5 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 21.875rem;
+    height: 15rem;
+    .newsletter__input{
+        border: 0rem;
+        height: 1.5625rem;
+    }
+    
 }

@@ -23,6 +23,21 @@ nav .menu .menu__logo h1 {
   font-size: 1em;
 }
 
+.newsletter {
+  font-size: 15px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .contacto {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+  .contacto {
+    font-size: 1.25em;
+  }
+}
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -308,7 +323,11 @@ nav .menu .menu__logo h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 21.875rem;
+  height: 15rem;
+}
+.newsletter .newsletter__input {
+  border: 0rem;
+  height: 1.5625rem;
 }
 
 #noticias-derecha {
@@ -327,6 +346,13 @@ nav .menu .menu__logo h1 {
   padding: 0.625rem;
   list-style: none;
   background-color: #035aa6;
+  color: white;
+}
+
+.newsletter__botton {
+  border: 0rem;
+  background-color: #ff9234;
+  height: 1.5625rem;
   color: white;
 }
 
@@ -350,13 +376,28 @@ nav .menu .menu__nav ul a, nav .menu .menu__nav li a {
 }
 
 .contacto {
+  padding-top: 0.3rem;
   padding-right: 0.5rem;
 }
 
+.menu__input {
+  height: 1.2rem;
+  border-radius: 3.75rem;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .menu__input {
+    display: none;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1920px) {
   .nosotros {
     display: block;
     padding-right: 0.9375rem;
+  }
+
+  .nosotros {
+    padding-top: 0.3rem;
   }
 }
 

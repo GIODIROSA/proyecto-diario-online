@@ -24,7 +24,25 @@ nav{
     display: none;
 }
 .contacto{
+    padding-top: 0.3rem;
     padding-right: 0.5rem;
+}
+
+.menu__input{
+    height: 1.2rem;
+    border-radius: 3.75rem;
+}
+
+// caso particular:
+// Se tomo la medida producto de UX en la optmización de la lectura de los elementos dispuestos, a partir de 400px
+// tiene una visión optima de los dos elementos en mobile; (los elementos en cuestión es contacto e input)
+
+@media only screen and (min-width: 300px) and (max-width: 399px){
+
+    .menu__input{
+       display: none;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1920px){
@@ -33,6 +51,10 @@ nav{
         display: block;
         padding-right: 0.9375rem;
     }
+    .nosotros{
+        padding-top: 0.3rem;
+    }
+    
     
 
 }

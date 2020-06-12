@@ -16,3 +16,26 @@ nav{
 .contacto{
     font-size: 1em;
 }
+
+.newsletter{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+// Se tomo la medida producto de UX en la optmización de la lectura de los elementos dispuestos, a partir de 400px
+// tiene una visión optima de los dos elementos en mobile; (los elementos en cuestión es contacto e input)
+
+@media only screen and (min-width: 300px) and (max-width: 399px){
+    .contacto{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px){
+    .contacto{
+        font-size: 1.25em;
+    }
+}
