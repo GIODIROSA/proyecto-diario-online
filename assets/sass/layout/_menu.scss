@@ -1,3 +1,11 @@
 #menu-principal{
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px){
+    #menu-principal{
+        padding: 0rem 3.5rem;
+    }
+    
+
 }

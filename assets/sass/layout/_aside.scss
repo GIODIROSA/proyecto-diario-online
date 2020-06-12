@@ -1,0 +1,24 @@
+#noticias-derecha{
+    padding: 0 1.5625rem 5.625rem 1.5625rem;
+    background: $color-aside;
+    border-radius: 0.3125rem;
+    box-shadow: 1px 1px 12px gainsboro;
+    .lista{
+        .lista__tags{
+            ul{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 0rem;
+                li{
+                    padding: 0.625rem;
+                    list-style: none;
+                    background-color: $color-tag;
+                    color: white;
+                }
+        
+            }
+        }
+    }
+}
+    

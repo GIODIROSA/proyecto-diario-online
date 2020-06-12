@@ -10,9 +10,17 @@ img {
 }
 
 nav .menu .menu__logo h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 2rem 0px;
   margin: 0px;
+}
+
+.nosotros {
+  font-size: 1.25em;
+}
+
+.contacto {
+  font-size: 1em;
 }
 
 .row {
@@ -265,6 +273,12 @@ nav .menu .menu__logo h1 {
     grid-column: span 1;
   }
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #noticias-derecha {
   display: none;
 }
@@ -275,11 +289,45 @@ nav .menu .menu__logo h1 {
   }
 }
 #portada {
-  padding: 0em 4rem;
+  padding: 0em 3rem;
 }
 
 #menu-principal {
-  padding: 0rem 4rem;
+  padding: 0rem 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+  #menu-principal {
+    padding: 0rem 3.5rem;
+  }
+}
+.newsletter {
+  background: #f5f5f5;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 21.875rem;
+}
+
+#noticias-derecha {
+  padding: 0 1.5625rem 5.625rem 1.5625rem;
+  background: #f7f7f7;
+  border-radius: 0.3125rem;
+  box-shadow: 1px 1px 12px gainsboro;
+}
+#noticias-derecha .lista .lista__tags ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem;
+}
+#noticias-derecha .lista .lista__tags ul li {
+  padding: 0.625rem;
+  list-style: none;
+  background-color: #035aa6;
+  color: white;
 }
 
 nav .menu {
@@ -289,10 +337,27 @@ nav .menu {
   align-content: center;
 }
 nav .menu .menu__nav ul, nav .menu .menu__nav li {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
 }
 nav .menu .menu__nav ul a, nav .menu .menu__nav li a {
   text-decoration: none;
+}
+
+.nosotros {
+  display: none;
+}
+
+.contacto {
+  padding-right: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+  .nosotros {
+    display: block;
+    padding-right: 0.9375rem;
+  }
 }
 
 /*# sourceMappingURL=origen.css.map */
