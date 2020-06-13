@@ -1,0 +1,1 @@
+alert("hola: hice cambios en la resolucion 320 a 399 v-mobile/ a partir de 400px es parecido a la maqueta inicial/ hice cambios esteticos para mejora de diseño")

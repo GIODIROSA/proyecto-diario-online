@@ -1,0 +1,24 @@
+// modificaciones y separaciones de los tags
+
+.lista{
+    .lista__tags{
+        ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0rem;
+            li{
+                padding: 0.625rem;
+                list-style: none;
+                background-color: $color-tag;
+                color: white;
+                margin-right: 0.1rem;
+                font-size: 12px;
+            }
+    
+        }
+    }
+}
+
+
+

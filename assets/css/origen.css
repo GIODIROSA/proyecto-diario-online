@@ -336,18 +336,6 @@ nav .menu .menu__logo h1 {
   border-radius: 0.3125rem;
   box-shadow: 1px 1px 12px gainsboro;
 }
-#noticias-derecha .lista .lista__tags ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0rem;
-}
-#noticias-derecha .lista .lista__tags ul li {
-  padding: 0.625rem;
-  list-style: none;
-  background-color: #035aa6;
-  color: white;
-}
 
 .newsletter__botton {
   border: 0rem;
@@ -399,6 +387,30 @@ nav .menu .menu__nav ul a, nav .menu .menu__nav li a {
   .nosotros {
     padding-top: 0.3rem;
   }
+}
+.lista .lista__tags ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0rem;
+}
+.lista .lista__tags ul li {
+  padding: 0.625rem;
+  list-style: none;
+  background-color: #035aa6;
+  color: white;
+  margin-right: 0.1rem;
+  font-size: 12px;
+}
+
+.message .message_text {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Inconsolata", monospace;
+  background: red;
+  color: white;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=origen.css.map */
